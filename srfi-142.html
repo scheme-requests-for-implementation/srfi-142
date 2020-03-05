@@ -19,7 +19,7 @@ John Cowan
 
 <h1>Status</h1>
 
-<p>This SRFI is currently in <em>withdrawn</em> status.  Here is <a href="http://srfi.schemers.org/srfi-process.html">an explanation</a> of each status that a SRFI can hold.  To provide input on this SRFI, please send email to <code><a href="mailto:srfi+minus+142+at+srfi+dotschemers+dot+org">srfi-142@<span class="antispam">nospam</span>srfi.schemers.org</a></code>.  To subscribe to the list, follow <a href="http://srfi.schemers.org/srfi-list-subscribe.html">these instructions</a>.  You can access previous messages via the mailing list <a href="http://srfi-email.schemers.org/srfi-142">archive</a>.</p>
+<p>This SRFI is currently in <em>withdrawn</em> status.  Here is <a href="https://srfi.schemers.org/srfi-process.html">an explanation</a> of each status that a SRFI can hold.  To provide input on this SRFI, please send email to <code><a href="mailto:srfi+minus+142+at+srfi+dotschemers+dot+org">srfi-142@<span class="antispam">nospam</span>srfi.schemers.org</a></code>.  To subscribe to the list, follow <a href="http://srfi.schemers.org/srfi-list-subscribe.html">these instructions</a>.  You can access previous messages via the mailing list <a href="https://srfi-email.schemers.org/srfi-142">archive</a>.</p>
 <ul>
   <li>Received: 2016-09-19</li>
   <li>Draft #1 published: 2016-09-20</li>
@@ -28,7 +28,7 @@ John Cowan
   <li>Draft #4 published: 2017-03-27</li>
   <li>60-day deadline: 2016-11-19</li>
   <li>Finalized: 2017-04-05</li>
-  <li>Withdrawn (superseded by <a href="http://srfi.schemers.org/srfi-151/srfi-151.html">SRFI 151</a>): 2017-08-10</li>      
+  <li>Withdrawn (superseded by <a href="https://srfi.schemers.org/srfi-151/srfi-151.html">SRFI 151</a>): 2017-08-10</li>      
 </ul>
 
 <h1>Abstract</h1>
@@ -44,15 +44,15 @@ core operators with C or assembly language if possible), and open source.
 <p>
 The precise semantics of these operators is almost never an issue. A
 consistent, portable set of <em>names</em> and <em>parameter conventions</em>, however, is.
-Hence this SRFI, which is based mainly on <a href="http://srfi.schemers.org/srfi-33/srfi-33.html">SRFI 33</a>, with some changes and additions from <a href="http://srfi.schemers.org/srfi-33/mail-archive/msg00023.html">Olin's late revisions to SRFI 33</a> (which were never consummated).
-<a href="http://srfi.schemers.org/srfi-60/srfi-60.html">SRFI 60</a>
+Hence this SRFI, which is based mainly on <a href="https://srfi.schemers.org/srfi-33/srfi-33.html">SRFI 33</a>, with some changes and additions from <a href="http://srfi.schemers.org/srfi-33/mail-archive/msg00023.html">Olin's late revisions to SRFI 33</a> (which were never consummated).
+<a href="https://srfi.schemers.org/srfi-60/srfi-60.html">SRFI 60</a>
 (based on SLIB) is smaller but has a few procedures of its own;
 some of its procedures have both native (often Common Lisp) and SRFI 33 names.
 They have been incorporated into this SRFI.
 <a href="http://www.r6rs.org/final/html/r6rs-lib/r6rs-lib-Z-H-12.html#node_sec_11.4">R6RS</a>
 is a subset of SRFI 60, except that all procedure names begin with a <tt>bitwise-</tt> prefix.
 A few procedures have been added from
-the general vector <a href="http://srfi.schemers.org/srfi-133/srfi-133.html">SRFI 133</a>.  
+the general vector <a href="https://srfi.schemers.org/srfi-133/srfi-133.html">SRFI 133</a>.  
 </p>
 <p>
 Among the applications of bitwise operations are: hashing,
@@ -103,7 +103,7 @@ the end (and zeros shift in on the right). If we shift right, then zeros
 shift into the string on the left (and rightmost bits fall off the end). So
 to define a logical shift operation, <em>we must specify the size of the
 window</em>. 
-<a href="http://srfi.schemers.org/srfi-143/srfi-143.html">SRFI 143</a>
+<a href="https://srfi.schemers.org/srfi-143/srfi-143.html">SRFI 143</a>
 specifies logical shifts on fixnums, which are integers of machine-dependent size.
 </li></ul><h2 id="CommonLisp">Common Lisp</h2>
 <p>
@@ -532,7 +532,7 @@ by applying <em>successor</em> to the current state, and repeat this algorithm.
 <tt>(make-bitwise-generator </tt><em>i</em><tt>)</tt>
 </p>
 <p>
-Returns a <a href="http://srfi.schemers.org/srfi-121/srfi-121.html">SRFI 121</a>
+Returns a <a href="https://srfi.schemers.org/srfi-121/srfi-121.html">SRFI 121</a>
 generator that generates all the bits of <em>i</em> starting
 with bit 0.  Note that it is an infinite generator.
 </p>
